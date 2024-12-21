@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Innovators Conference 2024 - Visitor Registration</title>
+    <link rel="stylesheet" href="project 2/css.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><center>"Welcome to Tech Innovators Conference 2024</center></h1>
+            <p><center>Join us for an exciting event showcasing the latest in technology innovation!</center></p>
+        </header>
+        <section class="event-images">
+         <div class="image-coontainer">
+        <div><img src="https://media.istockphoto.com/id/1344939844/photo/hand-holding-drawing-virtual-lightbulb-with-brain-on-bokeh-background-for-creative-and-smart.jpg?s=612x612&w=0&k=20&c=2GLUy6eqCSr0NFRO8CHm8_PUMy9Qc8ryqcsRoe0DEYM=" width="300" depth="168"
+            alt="Image 1">
+            <p>Tech Innovations</p>
+        </div>    
+         <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTrCwvRcZUtl7G4EcB9UxB5npDC6TN5i90DQ&s"
+            alt="image 2">
+            <p>Tech Exhibits</p>
+         </div>
+         </div>  
+        </section>
+        <center><h2>Visitor Registration Form</h2></center>
+        <form id="visitorForm">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+                <hr>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+                <hr>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <hr>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </fieldset>
+                <hr>
+            <fieldset>
+                <legend>Event Experience</legend>
+                <label for="interest">What are you most excited to see?</label>
+                <textarea id="interest" name="interest" placeholder="Tell us what you are most excited about!" required></textarea>
+                <hr>
+                <label for="sessions">Which sessions are you interested in attending?</label>
+                <select id="sessions" name="sessions" required>
+                    <option value="AI">Artificial Intelligence</option>
+                    <option value="Blockchain">Blockchain Technology</option>
+                    <option value="IoT">Internet of Things</option>
+                    <option value="VR">Virtual Reality</option>
+                    <option value="Other">Other</option>
+                </select>
+                <hr>
+            </fieldset>
+                <hr>
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label for="comments">Any additional comments or requests?</label>
+                <textarea id="comments" name="comments"></textarea>
+            </fieldset>
+                 <hr>
+            <fieldset>
+                <legend>Agreement</legend>
+                <label>
+                    <input type="checkbox" id="agreement" name="agreement" required> I agree to the terms and conditions of Tech Innovators Conference 2024.
+                </label>
+            </fieldset>
+            <button type="submit">Submit Registration</button>
+        </form>
+    </div>
+ <script src="project 2/javascript.js"></script>
+</body>
+</html>
